@@ -17,6 +17,10 @@ class Chaser {
     });
   }
 
+  stop(soundName) {
+    this[soundName].stop();
+  }
+
   init() {
     this.loadSound('chaser1', 'chaser1.mp3');
     this.loadSound('chaser2', 'chaser2.mp3');

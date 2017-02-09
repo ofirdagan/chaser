@@ -1,13 +1,9 @@
 import React from 'react';
 import {View, StyleSheet} from 'react-native';
-import chaser from './services/chaser';
 import Home from './screens/home.screen';
+import Splash from './screens/splash.screen';
 
 export default () => {
-
-  const onPlay = (soundName) => {
-    chaser.play(soundName);
-  };
 
   return (
     <Home/>
