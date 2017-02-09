@@ -5,6 +5,8 @@ import BgImg from '../fragments/bg-image.component';
 import ChaserScreen from './chaser.screen';
 import SplashScreen from './splash.screen';
 import {chasers} from '../constants/constants';
+import api from '../services/chaser.api';
+
 const homeBg = require('../assets/Home.png');
 
 export default class Home extends Component {
@@ -22,11 +24,16 @@ export default class Home extends Component {
   }
 
   onPeachSchnappsTap() {
-    this.setState({chaser: chasers.schnapps});
+    this._onChaserTap(chasers.schnapps);
   }
 
   onArakTap() {
-    this.setState({chaser: chasers.arak});
+    this._onChaserTap(chasers.arak);
+  }
+
+  _onChaserTap(chaser) {
+    this.setState({chaser});
+    api.broadcastChaser();
   }
 
   onChaserClose() {

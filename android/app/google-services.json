@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "534071823675",
+    "firebase_url": "https://karina-chaser.firebaseio.com",
+    "project_id": "karina-chaser",
+    "storage_bucket": "karina-chaser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534071823675:android:8be9286ec665f63a",
+        "android_client_info": {
+          "package_name": "com.chaser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534071823675-nvdhgkaarquc4rlm1oi9c4maii4du8ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMZjngIjFITAH1VS6ZKhrDi8kVFyRzNlA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>534071823675-q30dn1btv4gbke1pu09t5nhfhuch33k2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.534071823675-q30dn1btv4gbke1pu09t5nhfhuch33k2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD-_LiZkgTn2pymtK9gX2ita1gjpFevJuc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>534071823675</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.Chaser</string>
+	<key>PROJECT_ID</key>
+	<string>karina-chaser</string>
+	<key>STORAGE_BUCKET</key>
+	<string>karina-chaser.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:534071823675:ios:a8eb47c2e1c645d7</string>
+	<key>DATABASE_URL</key>
+	<string>https://karina-chaser.firebaseio.com</string>
+</dict>
+</plist>
