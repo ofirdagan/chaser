@@ -23,7 +23,7 @@ class Api {
     this._setLiveChaser(true);
     setTimeout(() => {
       this._setLiveChaser(false);
-    }, 2000);
+    }, 4500);
   }
 
   _setLiveChaser(value) {

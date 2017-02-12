@@ -26,7 +26,9 @@ export default ({chaser, onClose}) => {
     onClose();
   };
 
-  chaserService.play(sound);
+  chaserService.play(sound).finally(() => {
+    setTimeout(onCloseTap, 600);
+  });
   return (
     <Animatable.View animation={animation} style={s.container}>
       <BgImg img={image}/>

@@ -8,12 +8,14 @@ class Chaser {
   }
 
   play(soundName) {
-    this[soundName].play(success => {
-      if (success) {
-        console.log('successfully finished playing');
-      } else {
-        console.log('playback failed due to audio decoding errors');
-      }
+    return new Promise((res, rej) => {
+      this[soundName].play(success => {
+        if (success) {
+          res();
+        } else {
+          rej();
+        }
+      });
     });
   }
 
