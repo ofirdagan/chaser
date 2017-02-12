@@ -1,3 +1,4 @@
+import api from './chaser.api';
 const Sound = require('react-native-sound');
 
 
@@ -8,6 +9,7 @@ class Chaser {
   }
 
   play(soundName) {
+    api.broadcastChaser(true);
     return new Promise((res, rej) => {
       this[soundName].play(success => {
         if (success) {
@@ -21,6 +23,7 @@ class Chaser {
 
   stop(soundName) {
     this[soundName].stop();
+    api.broadcastChaser(false);
   }
 
   init() {

@@ -19,11 +19,8 @@ class Api {
     this.dbRef = firebase.database().ref();
   }
 
-  broadcastChaser() {
-    this._setLiveChaser(true);
-    setTimeout(() => {
-      this._setLiveChaser(false);
-    }, 4500);
+  broadcastChaser(value) {
+    this._setLiveChaser(value);
   }
 
   _setLiveChaser(value) {
